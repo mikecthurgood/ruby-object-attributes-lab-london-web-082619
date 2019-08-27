@@ -7,8 +7,8 @@ class Dog
     @name
   end
   
-  def initialize(breed)
-    @breed = breed
+  def ibreeds=(dog_breed)
+    @breed = dog_breed
   end
   
   def breed
